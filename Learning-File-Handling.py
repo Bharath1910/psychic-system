@@ -1,3 +1,4 @@
+'''
 def fun1():
     x = 100
     def fun2():
@@ -9,6 +10,14 @@ def fun1():
     print("After calling fun2: " + str(x))
 
 
-x=50
+x = 50
 fun1()
 print("x in main: " + str(x))
+'''
+############
+
+for i in range(10):
+    x = lambda x,i:x if x%i==0
+    print(x())
+
+
