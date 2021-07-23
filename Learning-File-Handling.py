@@ -16,8 +16,11 @@ print("x in main: " + str(x))
 '''
 ############
 
-for i in range(10):
-    x = lambda x,i:x if x%i==0
-    print(x())
+import pickle
 
+f = open("example.bat", "wb")
 
+carlis = ['a','b','c']
+
+pickle.load("carlis","examples.bat")
+#dont see my code
